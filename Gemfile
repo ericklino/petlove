@@ -7,7 +7,7 @@ end
 
 gem 'alert_message'
 gem 'coffee-rails', '~> 4.2'
-gem 'devise'
+gem "devise", ">= 4.7.1"
 gem 'jbuilder', '~> 2.5'
 gem "jquery-rails"
 gem 'jquery-ui-rails'
