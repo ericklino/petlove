@@ -1,0 +1,25 @@
+// deafult
+
+body {
+  padding-top: 2.9375rem;
+  background: $white;
+
+  font-family: $family-two;
+  font-size: 1rem;
+
+  cursor: default;
+}
+
+.body-home {
+  background: #f0f0f0;
+}
+
+@include media($screen-md) {
+  body {
+    padding-top: 5rem;
+  }
+
+  .body-home {
+    background: $white;
+  }
+}

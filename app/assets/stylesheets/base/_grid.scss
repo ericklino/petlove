@@ -1,0 +1,43 @@
+// grid
+
+$grid-columns: 12;
+
+$container-sm: 720px;
+$container-md: 960px;
+$container-lg: 980px;
+
+.container {
+  @include row;
+  padding: 0 1rem;
+}
+
+.container--relative {
+  position: relative;
+}
+
+.container-no-pading-mobile {
+  padding: 0;
+}
+
+.row {
+  @include row;
+}
+
+@include media($screen-sm) {
+  .container {
+    @include outer-container($container-sm);
+    padding: 0;
+  }
+}
+
+@include media($screen-md) {
+  .container {
+    @include outer-container($container-md);
+  }
+}
+
+@include media($screen-lg) {
+  .container {
+    @include outer-container($container-lg);
+  }
+}

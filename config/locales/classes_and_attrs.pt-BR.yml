@@ -1,0 +1,30 @@
+pt-BR:
+  activerecord:
+    models:
+      animal:
+        one: 'Animal'
+        other: 'Animais'
+      people:
+        one: 'Pessoa'
+        other: 'Pessoas'
+      type_animal:
+        one: 'Tipo do animal'
+        other: 'Tipos de animais'
+
+    attributes:
+      animal:
+        monthly: 'Custo Mensal R$'
+        name: 'Nome'
+        people: 'Dono'
+        type_animal: 'Tipo'
+      people:
+        date_born: 'Date de Nascimento'
+        document: 'N° Documento'
+        name: 'Nome'
+      type_animal:
+        name: 'Nome'
+      user:
+        password: "Senha"
+        password_confirmation: "Confirmar senha"
+        created_at: "Criado em"
+        updated_at: "Atualizado em"
