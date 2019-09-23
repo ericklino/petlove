@@ -12,19 +12,16 @@
  *
  *= require alert_message
  *= require_self
-
  */
 
  // librarys
   @import "bourbon";
   @import "neat";
 
-
  // base
   @import "base/variables";
   @import "base/breakpoints";
   @import "base/grid";
-
 
  //devise
   @import "devise/*";
