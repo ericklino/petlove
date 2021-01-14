@@ -12,7 +12,7 @@ gem 'jbuilder', '~> 2.5'
 gem "jquery-rails"
 gem 'jquery-ui-rails'
 gem 'rails', '~> 5.1.6'
-gem 'rails_admin', '~> 1.4', '>= 1.4.2'
+gem 'rails_admin', '~> 1.4'
 gem "rails_admin_rollincode", git: "https://github.com/giovaneperlin/rails_admin_theme.git"
 gem "rails-env"
 gem "rails_admin-i18n"
